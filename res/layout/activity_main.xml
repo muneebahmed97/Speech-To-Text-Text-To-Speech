@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal|center_vertical">
+
+    <Button
+        android:id="@+id/btn_TextToSpeech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text-to-Speech"
+        android:layout_marginBottom="60dp"
+        />
+
+    <Button
+        android:id="@+id/btn_SpeechToText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speech-to-Text"
+        android:layout_marginTop="60dp"
+        />
+
+</RelativeLayout>
